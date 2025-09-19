@@ -36,7 +36,7 @@ class SimpleApiTest(unittest.TestCase):
         # Wandelt die JSON-Antwort von Bytes in ein Python-Dictionary um.
         data = json.loads(response.get_data(as_text=True))
         # Überprüft, ob der Wert des Schlüssels 'message' korrekt ist.
-        self.assertEqual(data['message'], 'Hallo Welt!')
+        self.assertEqual(data['message'], 'Hallo CI/CD Pipeline!')
 
 # Dieser Block ermöglicht es, die Tests direkt über die Kommandozeile auszuführen.
 if __name__ == '__main__':

@@ -12,7 +12,7 @@ def home():
     """
     # jsonify wandelt das Python-Dictionary automatisch
     # in eine JSON-Antwort mit dem korrekten Content-Type-Header um.
-    return jsonify({"message": "Hallo Welt!"})
+    return jsonify({"message": "Hallo CI/CD Pipeline!"})
 
 # Dieser Block stellt sicher, dass der Server nur gestartet wird,
 # wenn das Skript direkt ausgeführt wird (und nicht, wenn es importiert wird).
